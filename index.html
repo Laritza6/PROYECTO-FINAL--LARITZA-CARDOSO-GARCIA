@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Laritza Cardoso Garcia">
+    <meta name="description" content="Kira y Lucas mis mascotas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Laritza Cardoso| Enfermedades Gastrointestinales</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/0f.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/0f.jpg" width="120" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">¿Que son las enfermedades Gastrointestinales?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Tratamiento Nutricional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">¡De la informacion a la accion!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/1f.jpg" alt="Foto de Laritza">
+        <h1> Hola, soy Laritza Cardoso Garcia</h1>
+        <h2>=Tu Nutri Carrot=</h2> 
+       <h3>Es un gusto poder compartirte informacion sobre las Enfermedades Gastrointestinales que e estado aprendiendo durante mi periodo de estudio.</h3> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/2f.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">¿Que son las Enfermedades Gstrointestinales?</h2>
+        <p class="seccion-texto">Son aquellas que afectan cualquier sección del tracto gastrointestinal.
+          Pueden afectar desde el esófago hasta el recto y los órganos 
+          digestivos que lo integran (hígado, vesícula biliar y páncreas).
+          El término abarca trastornos agudos, crónicos, recurrentes o 
+          funcionales y cubre una amplia gama de enfermedades.</em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="imagenes/Video.mp4" width="600" height="400" text-aligen="" autoplay controls>Sistema Digestivo</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- refliujo -->
+         <!-- diverticular -->
+         <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">1</p>
+          <p class="experiencia-titulo">Enfermedad por Reflujo Gastroesofagico</p>
+          <p>Es una afección en la cual los contenidos estomacales se devuelven desde el estómago hacia el esófago (tubo de deglución)</p>
+
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Pirosis</span>
+            <span class="badge text-bg-primary">Disfagia</span>
+            <span class="badge text-bg-primary">Odinofagia</span>
+            <span class="badge text-bg-primary">Tos seca</span>
+            
+          </div>
+        </div>
+          <!-- gastritis -->
+          <!-- diverticular -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">2</p>
+            <p class="experiencia-titulo">Gastritis Cronica</p>
+            <p>Es una inflamación persistente del revestimiento del estómago que se desarrolla gradualmente con el tiempo.puede ser causada por varios factores, como infecciones bacterianas (principalmente Helicobacter pylori), uso prolongado de antiinflamatorios no esteroides (AINE), consumo excesivo de alcohol, estrés crónico u otras enfermedades autoinmunes.</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Dolor epigastrico</span>
+              <span class="badge text-bg-primary">Acidez estomacal</span>
+              <span class="badge text-bg-primary">Vomito</span>
+              <span class="badge text-bg-primary">Ardor epigastrico</span>
+              
+            </div>
+          </div>
+          
+          <!-- diverticular -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">3</p>
+            <p class="experiencia-titulo">Enfermedad diverticular</p>
+            <p>Se refiere a la presencia de divertículos, que son pequeñas bolsas o sacos que pueden formarse en la pared del colon (intestino grueso).</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Dolor abdominal (parte inferior izquierda del abdomen)</span>
+              <span class="badge text-bg-primary">Estreñimiento/Diarrea</span>
+              <span class="badge text-bg-primary">Fiebre y escalofrios</span>
+              <span class="badge text-bg-primary">Distencion abdominal</span>
+              
+            </div>
+          </div>
+
+      <!-- diverticular -->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">4</p>
+        <p class="experiencia-titulo">Estreñimiento Cronico</p>
+        <p>Se refiere a la presencia de divertículos, que son pequeñas bolsas o sacos que pueden formarse en la pared del colon (intestino grueso).</p>
+
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">Defecar menos de tres veces por semana</span>
+          <span class="badge text-bg-primary">Heces duras, secas o grumosas</span>
+          <span class="badge text-bg-primary">Hacer esfuerzos para defecar</span>
+          <span class="badge text-bg-primary">Dolor constante en el abdomen</span>
+          
+        </div>
+      </div>
+      <!-- diverticular -->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">5</p>
+        <p class="experiencia-titulo">Litiasis Biliar</p>
+        <p>Se refiere a la presencia de divertículos, que son pequeñas bolsas o sacos que pueden formarse en la pared del colon (intestino grueso).</p>
+
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">Dolor abdominal intenso en la parte superior derecha</span>
+          <span class="badge text-bg-primary">Molestias despues de consumir alimentos grasos</span>
+          <span class="badge text-bg-primary">Cambios en el color de las heces</span>
+          <span class="badge text-bg-primary">Ictericia</span>
+          
+        </div>
+      </div>
+      <!-- diverticular -->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">6</p>
+        <p class="experiencia-titulo">Colescistitis Aguda</p>
+        <p>Se refiere a la presencia de divertículos, que son pequeñas bolsas o sacos que pueden formarse en la pared del colon (intestino grueso).</p>
+
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">Dolor abdominal intenso (lado derecho)</span>
+          <span class="badge text-bg-primary">Fiebre</span>
+          <span class="badge text-bg-primary">Nauseas y vomitos</span>
+          <span class="badge text-bg-primary">Sensibilidad abdominal</span>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Super Foods</h2>
+      <h3 class="seccion-descripcion">Los Super Food son alimentos que se destacan por su alto contenido de nutrientes beneficiosos para la salud.</h3>
+      <h4 class="seccion-descripcion">A continuacion te presento algunos de ellos relacionados para cada patologia.</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/mnz.jpg" alt="L1">
+              <p>Son una fuente de fibra soluble, que puede ayudar a absorber el exceso de ácido en el estómago y a aliviar los síntomas de la acidez.</p>
+              <div class="overlay">
+                <p>ERGE</p>
+                <p>(Manzana)</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/av.jpg" alt="k1">
+                            <p>La avena es rica en fibra soluble, que puede ayudar a formar un gel en el estómago, ayudando a suavizar las mucosas y reducir la irritación. </p>
+              <div class="overlay">
+                <p>GASTRITIS CRONICA</p>
+                <p>(Avena)</p>
+                <div class="iconos-contenedor">
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/zana.jpg" alt="Proyecto 3">
+              <p>La avena es rica en fibra soluble, que puede ayudar a formar un gel en el estómago, ayudando a suavizar las mucosas y reducir la irritación. </p>
+              <div class="overlay">
+                <p>ENFERMEDAD DIVERTICULAR</p>
+                <p>(Zanahoria)</p>
+                <div class="iconos-contenedor">
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/pera.jpg" alt="Proyecto 4">
+              <p>Son conocidas por ser una fruta rica en fibra, especialmente fibra soluble, que puede ayudar a aliviar el estreñimiento crónico al promover la regularidad en los movimientos intestinales.</p>
+              <div class="overlay">
+                <p>ESTREÑIMIENTO CRONICO</p>´
+                <p>(Peras)</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/quin.jpg" alt="Proyecto 5">
+              <p>La quinoa es rica en fibra y proteínas, y tiene un bajo contenido de grasas saturadas. Recuerda que, en general, una dieta equilibrada y variada con énfasis en alimentos ricos en fibra y bajos en grasas saturadas es aconsejable para las personas con litiasis biliar.</p>
+              <div class="overlay">
+                <p>LITIASIS BILIAR</p>
+                <p>(Quinoa)</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/melon.jpg" alt="Proyecto 6">
+              <p>Su contenido de agua y la falta de grasas significativas hacen que sea una opción refrescante y suave para el sistema digestivo en momentos de malestar. </p>
+              <div class="overlay">
+                <p>COLESCISTITIS AGUDA</p>
+                <p>(Melon)</p>
+                <div class="iconos-contenedor">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://americanhealthandfitness.com.mx/que-son-los-superfoods/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Conoce mas acerca de los Super Foods...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Rodeate de mas informacion en los siguientes links:</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://medlineplus.gov/spanish/ency/article/000265.htm" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Enfermedad por Reflujo Gastroesofagico
+            </li>
+          </a>
+          <a href="https://www.mayoclinic.org/es/diseases-conditions/diverticulitis/symptoms-causes/syc-20371758" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Complicaciones de la Enfermedad Diverticular
+            </li>
+          </a>
+          <a href="https://www.cun.es/enfermedades-tratamientos/enfermedades/litiasis-biliar" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Diagnostico de litiasis biliar
+            </li>
+          </a>
+          <a href="https://lamenteesmaravillosa.com/estres-y-gastritis-cual-es-su-relacion/#:~:text=Entre%20los%20principales%20s%C3%ADntomas%20de%20un%20cuadro%20de,...%207%20Problemas%20de%20sue%C3%B1o%20e%20irritabilidad.%20" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Estres relacionado con la Gastritis Cronica
+            </li>
+          </a>
+          <a href="https://goodfood.expertexpro.com/es/pitanie-pri-holecistite-chto-mozhno-a-chto-nelzja-est/#:~:text=%C2%BFQu%C3%A9%20se%20puede%20y%20no%20se%20puede%20comer,de%20calabaza%20...%208%20Aceite%20de%20coco%20" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Nutricion en la Litiasis Biliar
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">"De la informacion a la accion"</h2>
+      <h3 class="seccion-descripcion">Descubre como prevenir las Enfermedades Gastrointestinales mencionadas anteriormente.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Um.jpg" alt="primero">
+              <p class="testimonio-texto">ERGE</p>
+              <div class="testimonio-info">
+                <p class="cliente">Evita acostarte despues de comer</p>
+                <p class="cargo">Espera al menos 2-3 horas antes de acostarte para permitir que el sistema digestivo trabaje.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/um2.jpg" alt="segundo">
+              <p class="testimonio-texto">Gastritis Cronica</p>
+              <div class="testimonio-info">
+                <p class="cliente">Controla el estres</p>
+                <p class="cargo">El estrés puede desencadenar o empeorar la gastritis. Practica técnicas de manejo del estrés, como el yoga, la meditación o el ejercicio regular.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/um3.jpg" alt="tercero">
+              <p class="testimonio-texto">Enfermedad Diverticular</p>
+              <div class="testimonio-info">
+                <p class="cliente">Evitar alimentos industrializados</p>
+                <p class="cargo">El consumo excesivo de alimentos bajos en fibra y altos en grasas saturadas, así como una dieta generalmente pobre en nutrientes, podría aumentar el riesgo de desarrollar divertículos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/um4.jpg" alt="tercero">
+              <p class="testimonio-texto">Estreñimiento Cronico</p>
+              <div class="testimonio-info">
+                <p class="cliente">Dieta rica en fibra</p>
+                <p class="cargo">Consumir alimentos con alto contenido de fibra, como frutas, verduras, cereales integrales y legumbres, ayuda a mantener un tránsito intestinal regular.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/um5.jpg" alt="tercero">
+              <p class="testimonio-texto">Liatiss Biliar</p>
+              <div class="testimonio-info">
+                <p class="cliente">LLeva una dieta baja en grasas saturadas y colesterol</p>
+                <p class="cargo">Al seguir una dieta baja en grasas saturadas y colesterol, se busca reducir la concentración de colesterol en la bilis y, en consecuencia, disminuir el riesgo de formación de cálculos biliares.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/um6.jpg" alt="tercero">
+              <p class="testimonio-texto">Colescistitis Aguda</p>
+              <div class="testimonio-info">
+                <p class="cliente">Evitar ayunos prolongados</p>
+                <p class="cargo">Comer regularmente y evitar períodos prolongados sin alimentos puede ayudar a prevenir la acumulación de bilis en la vesícula, reduciendo así el riesgo de colecistitis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y te comparto mas informacion que aprendo durante mi periodo de estudio.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="Larygarcia0628@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/0f.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">¡Aprendemos juntos como comunidad!<br>=Tu Nutri Carrot=</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/Laritza6" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/laritza-cardoso-garc%C3%ADa-24729a2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/laritza_cardoso/?hl=es" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="Larygarcia0628@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Laritza Cardoso Garcia </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
